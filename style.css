@@ -6,6 +6,15 @@
 body {
      font-family: serif ;
 }
+
+@media screen and (max-width: 700px) {
+    * {
+/* background-color: red ; */
+}
+.hireMe {
+    visibility: hidden;
+}
+}
 .navbar {
         margin: 0 20px 0 20px;
         

@@ -1,9 +1,8 @@
 * {
      padding: 0px;
+            background-color: #1d1c1d;
  }
-.mauve {
-        background-color: #1f0318;
-}
+ 
 body {
      font-family: serif ;
 }
@@ -26,7 +25,7 @@ body {
     float: none;
 }
 .myButton {
-    background-color: #1f0318;
+    background-color: #1d1c1d;
     border-radius: 28px;
     border: 1px solid #e5f2c9;
     display: inline-block;
@@ -41,8 +40,33 @@ body {
 .myButton:hover {
     color: #e5f2c9;
 }
+.main-info {
+     /* width: 100%; */
+     display: flex;
+     
+    
+    
+}
+.main-info > div {
+width: 50%;
+padding: 4% 0% 1% 10%;
+position: relative;
+         
+}
+.imageProfile {
+    width: 60%;
+ 
+}
 
-
+.Title1 {
+    color: azure;
+    text-align: left;
+    font-size: 32;
+}
+span {
+    color: #e5f2c9;
+    text-decoration: underline;
+}
 /* .navbar {
     background-color: rgb(253, 253, 253);
     height: 100px;

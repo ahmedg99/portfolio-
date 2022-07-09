@@ -16,6 +16,13 @@ body {
         margin: 0 20px 0 20px;
         
   }
+  .nav-link:hover {
+      color: #e5f2c9;
+
+  }  .item:hover {
+      color: #e5f2c9;
+
+  }
 .navbar-nav {
     float: none;
     margin: 0 auto;
@@ -24,12 +31,15 @@ body {
  }
  .nav-item > a {
      color: #e5f2c9;
+        text-decoration: none;
  }
 
 .navbar-nav>li {
     display: inline-block;
     float: none;
-}
+    margin-right: 10px;
+    text-decoration: none;
+ }
 .myButton {
     background-color: #1d1c1d;
     border-radius: 28px;

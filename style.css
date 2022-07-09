@@ -1,6 +1,7 @@
 * {
      padding: 0px;
             background-color: #1d1c1d;
+            margin: auto;
  }
  
 body {
@@ -54,10 +55,12 @@ body {
 }
 .cvButton {
     margin-top: 4%;
+    margin-bottom: 20px;
 }
 .imageSectoin {
     padding: 4% 7% 2% 8%;
         flex: 40%;
+        text-align: center;
 }
 .infoText {
     flex: 70%;
@@ -72,6 +75,7 @@ position: relative;
 } */
 .imageProfile {
     width: 100%;
+
  
 }
 

@@ -1,6 +1,21 @@
 @media all and (max-width: 700px) {
+ * {
+    background-color: #1d1c1d;
+ }
+
  
 
+
+
+
+ body {
+    background-color: aqua;
+ }
+.mauve {
+    background-color: #1d1c1d;
+    display: none;
+
+}
     .hireMe {
         visibility: hidden;
     }
@@ -21,6 +36,38 @@
         padding: 10% 0% 0% 0%;
         text-align: center;
     }
+.Title1 {
+    color: azure;
+    font-size: 32px;
+    margin-bottom: 20px;    
+}
+
+.Title2 {
+    color: azure;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.Title3 {
+    color: azure;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.icons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.cvButton {
+    margin-top: 4%;
+height: 100px; }
+
+.imageProfile {
+    width: 70%;
+
+
+}
+
 
 }
 

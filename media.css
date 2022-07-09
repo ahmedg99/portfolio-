@@ -1,0 +1,27 @@
+@media all and (max-width: 700px) {
+ 
+
+    .hireMe {
+        visibility: hidden;
+    }
+
+    #main-info {
+
+        display: contents;
+
+    }
+
+
+
+    .imageSectoin {
+        padding: 4% 7% 2% 8%;
+    }
+
+    .infoText {
+        padding: 10% 0% 0% 0%;
+        text-align: center;
+    }
+
+}
+
+/*********** **** */

@@ -6,15 +6,11 @@
 body {
      font-family: serif ;
 }
+/*********** **** */
 
-@media screen and (max-width: 700px) {
-    * {
-/* background-color: red ; */
-}
-.hireMe {
-    visibility: hidden;
-}
-}
+
+
+
 .navbar {
         margin: 0 20px 0 20px;
         
@@ -49,7 +45,7 @@ body {
 .myButton:hover {
     color: #e5f2c9;
 }
-.main-info {
+#main-info{
      /* width: 100%; */
      display: flex;
      

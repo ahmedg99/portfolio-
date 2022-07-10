@@ -4,12 +4,22 @@
     }
  
  
+.items-section.responsive>li {
+    display: block;
+    margin-bottom: 20px;
 
+}.items-section.responsive>li:first-child {
+    display: block;
+    margin-top: 20px;
+
+}
 .items-section {
     display: none;
 }
 .items-section.responsive {
     display: block;
+    width: 100%;
+    text-align: center;
 }
 .brand-section {
     display: none;
@@ -19,4 +29,10 @@
             right: 0;
             top: 0;
 }
+
+
+
+
+
+
 }

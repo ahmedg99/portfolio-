@@ -1,0 +1,16 @@
+@media screen and (max-width: 600px) {
+    * {
+        background-color: blue;
+    }
+
+    /* .topnav a:not(:first-child) {
+        display: none;
+    } */
+
+    .icon-section {
+        visibility: visible;
+    }
+
+
+
+}

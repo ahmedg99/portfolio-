@@ -1,0 +1,37 @@
+
+.topnav {
+     display: inline-block;
+     display: flex;
+}
+.items-section>li {
+    display: inline-block;
+    float: none;
+    margin-right: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+/* .brand-section {
+ }
+
+.items-section {
+ 
+}
+.icon-section {
+ 
+} */
+
+        /* .items-section.responsive >li{
+            position: relative;
+        } */
+    
+        /* .items-section.responsive .icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    
+        .items-section.responsive a {
+            float: none;
+            display: block;
+            text-align: left;
+        } */

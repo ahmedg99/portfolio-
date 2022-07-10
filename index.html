@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="navmedia.css">
+    <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
      <!-- JavaScript Bundle with Popper -->
@@ -17,14 +21,60 @@
     <title>Document</title>
 </head>
 <body>
+
+
+
+
 <section class="intro">
     <div class="mauve">
-<nav class="navbar navbar-expand-sm ">
+
+
+
+<!-- <nav class="navbar navbar-expand-sm ">
+
+
+
     <a class="navbar-brand" href="#">
         <img src="src/img/Logo.png" style="    width: 202px; height: 137px;">
-    </a>
+    </a> -->
     
-    <ul class="navbar-nav   ">
+
+
+
+    <div class="topnav" id="myTopnav"  >
+
+
+    <a class="brand-section" href="#">
+        <img src="src/img/Logo.png" style="    width: 202px; height: 137px;">
+    </a> -->
+
+
+
+<div class="items-section" id="myitems">
+         <li class="nav-item">
+            <a class="item" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="item" href="#">Account</a>
+        </li>
+        <li class="nav-item">
+            <a class="item" href="#">Skills</a>
+        </li>
+        <li class="nav-item">
+            <a class="item" href="#">Works</a> 
+</div>
+
+       
+<div class="icon-section">
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars" style="color: #e5f2c9;font-size: 32px;"></i>
+  </a>
+</div>
+    </div>
+
+
+
+    <!-- <ul class="navbar-nav   ">
         <li class="nav-item">
             <a class="item" href="#">Home</a>
         </li>
@@ -43,12 +93,13 @@
             <a class="item" href="#">Contact</a>
         </li>
 
-    </ul>
-    <a class="navbar-brand" href="#">
+    </ul> -->
+
+    <!-- <a class="navbar-brand" href="#">
         <div class="hireMe"> 
-    <a href="#" class="myButton">Hire me </a>
-    </div>
-    </a>
+    <a href="#" class="myButton">Hire me </a> -->
+    <!-- </div>
+    </a> -->
 
 
 
@@ -70,7 +121,7 @@
                 <h2 class="Title2">
                     Software Engenieering Student and Front End developer
                 </h2>
-                <h3 class="Title3">I have a passion for expressive typography, perfectly color balanced photos, and ramen. </h3>
+                <h3 class="Title3">Ready to invest in new opportunities and always motivating to learn skills and face new challenges.</h3>
                  <div class="cvButton"> 
                 <a href="src/cv.pdf" class="myButton" download>Download CV</a>
 
@@ -93,6 +144,16 @@
 </section>
 </div>
  
-    
+        <script>
+function myFunction() {
+  var x = document.getElementById("myitems");
+  console.log("clique");
+  if (x.className === "items-section") {
+    x.className += " responsive";
+  } else {
+    x.className = "items-section";
+  }
+}
+</script>
 </body>
 </html>

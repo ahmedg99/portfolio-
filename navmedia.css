@@ -1,0 +1,22 @@
+@media screen and (max-width: 600px) {
+    *{
+        background-color: #1d1c1d;
+    }
+ 
+ 
+
+.items-section {
+    display: none;
+}
+.items-section.responsive {
+    display: block;
+}
+.brand-section {
+    display: none;
+}
+.icon-section {
+        position: absolute;
+            right: 0;
+            top: 0;
+}
+}

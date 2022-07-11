@@ -1,16 +1,14 @@
 @media screen and (max-width: 700px) {
-    *{
-        background-color: #1d1c1d;
-    }
+*{
+    background-color: #1d1c1d;
+}
  
 
 
-    .icon-section {
-        display: block;
-    }
-    .navbutton {
-        display: none;
-    }
+ 
+.navbutton {
+    display: none;
+}
  
 .items-section.responsive>li {
     display: block;
@@ -29,6 +27,8 @@
     width: 100%;
     text-align: center;
 }
+
+
 .brand-section {
     display: none;
 }
@@ -38,11 +38,7 @@
             top: 10%;
 }
 
-
-
-
-
-
+ 
 }
 
 
@@ -50,8 +46,8 @@
  
 
 
-    .icon-section {
-        display:none;
-     }
-    
+.icon-section {
+    display:none;
     }
+    
+}

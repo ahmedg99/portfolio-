@@ -1,8 +1,16 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     *{
         background-color: #1d1c1d;
     }
  
+
+
+    .icon-section {
+        display: block;
+    }
+    .navbutton {
+        display: none;
+    }
  
 .items-section.responsive>li {
     display: block;
@@ -26,8 +34,8 @@
 }
 .icon-section {
         position: absolute;
-            right: 0;
-            top: 0;
+            right: 10%;
+            top: 10%;
 }
 
 
@@ -36,3 +44,14 @@
 
 
 }
+
+
+@media screen and (min-width: 700px) {
+ 
+
+
+    .icon-section {
+        display:none;
+     }
+    
+    }

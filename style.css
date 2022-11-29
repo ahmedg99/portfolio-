@@ -117,6 +117,30 @@ span {
     text-align: centre;
                   padding: 0 20px 50px 20px;
 }
+
+
+
+.worksection {
+    background-color: #2f6627;
+    display: flex;
+
+}
+
+.work-item {
+background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* .navbar {
     background-color: rgb(253, 253, 253);
     height: 100px;
